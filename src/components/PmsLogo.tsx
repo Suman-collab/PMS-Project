@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useCms } from '../context/CmsContext';
-import defaultLogoUrl from '../../Logo final-02.png';
+
+const defaultLogoUrl = '/pms-logo.png';
 
 interface PmsLogoProps {
   className?: string;
