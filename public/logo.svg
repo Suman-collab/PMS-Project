@@ -1,0 +1,19 @@
+<svg viewBox="0 0 540 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- P Letter -->
+  <path d="M 48 68 C 48 55 58 45 71 45 L 116 45 C 152 45 178 65 178 90 C 178 115 152 135 116 135 L 92 135 L 92 172 C 92 185 82 195 70 195 C 58 195 48 185 48 172 Z" fill="#054B78"/>
+  <path d="M 92 82 L 114 82 C 128 82 136 85 136 90 C 136 95 128 98 114 98 L 92 98 Z" fill="#FFFFFF"/>
+
+  <!-- M Middle Core & Connection -->
+  <path d="M 175 60 L 225 150 L 275 60 L 325 150 L 355 190 C 352 194 340 195 330 185 L 290 120 L 245 190 L 195 110 L 175 60 Z" fill="#054B78"/>
+
+  <!-- M Orange Slanted Bars -->
+  <line x1="140" y1="180" x2="198" y2="60" stroke="#F89D1B" stroke-width="38" stroke-linecap="round"/>
+  <line x1="262" y1="60" x2="204" y2="180" stroke="#F89D1B" stroke-width="38" stroke-linecap="round"/>
+  <line x1="260" y1="62" x2="318" y2="180" stroke="#054B78" stroke-width="38" stroke-linecap="round"/>
+
+  <!-- S Letter -->
+  <path d="M 445 78 C 445 66 433 52 400 48 C 360 44 330 60 330 92 C 330 122 355 134 395 142 C 425 148 435 156 435 166 C 435 178 418 190 390 190 C 362 190 342 178 335 164 C 330 154 316 150 306 156 C 296 162 292 176 298 186 C 312 210 348 230 390 230 C 442 230 478 202 478 164 C 478 132 452 118 410 110 C 382 104 372 98 372 88 C 372 78 386 68 405 68 C 424 68 438 78 442 88 C 446 98 458 104 468 100 C 478 96 482 84 478 74 Z" fill="#054B78"/>
+
+  <!-- Subtitle -->
+  <text x="270" y="232" text-anchor="middle" fill="#F89D1B" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="25" letter-spacing="9">INNOVATION SOLUTIONS</text>
+</svg>

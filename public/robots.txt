@@ -1,0 +1,11 @@
+# robots.txt for PMS Innovation Solutions
+User-agent: *
+Allow: /
+Sitemap: https://pmsinnovations.com/sitemap.xml
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1
+
+# Block internal admin and build assets
+Disallow: /api/
+Disallow: /admin
