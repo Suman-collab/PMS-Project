@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useCms } from '../context/CmsContext';
+import defaultLogoUrl from '../../Logo final-02.png';
 
 interface PmsLogoProps {
   className?: string;
@@ -38,6 +39,12 @@ export const PmsLogo: React.FC<PmsLogoProps> = ({
     } else {
       activeUploadedLogo = companyInfo.logoUrl;
     }
+  }
+
+  // Use the supplied PMS brand artwork unless an administrator has selected a
+  // replacement logo.  The vector below remains as a resilient fallback.
+  if (!activeUploadedLogo && variant !== 'white') {
+    activeUploadedLogo = defaultLogoUrl;
   }
 
   const sizeClasses = {
